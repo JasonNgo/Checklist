@@ -27,12 +27,15 @@
                 </subviews>
                 <constraints>
                     <constraint firstAttribute="trailingMargin" secondItem="of9-rh-yg1" secondAttribute="trailing" id="4pU-sU-xOz"/>
-                    <constraint firstItem="of9-rh-yg1" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="54c-Ac-siN"/>
+                    <constraint firstItem="of9-rh-yg1" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" priority="750" id="54c-Ac-siN"/>
                     <constraint firstItem="of9-rh-yg1" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="dFk-Ih-hvf"/>
-                    <constraint firstItem="of9-rh-yg1" firstAttribute="bottom" secondItem="H2p-sc-9uM" secondAttribute="bottomMargin" id="t90-fc-IHL"/>
+                    <constraint firstItem="of9-rh-yg1" firstAttribute="bottom" secondItem="H2p-sc-9uM" secondAttribute="bottomMargin" priority="750" id="t90-fc-IHL"/>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="descriptionLabel" destination="of9-rh-yg1" id="ffw-ma-TmK"/>
+            </connections>
         </tableViewCell>
     </objects>
 </document>
