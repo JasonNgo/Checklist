@@ -7,5 +7,5 @@ Simple iOS application used to reinforce iOS development concepts:
 - Protocols
 
 Design Patterns:
-- MVC
+- Model-View-Controller
 - Data Source and Delegation
