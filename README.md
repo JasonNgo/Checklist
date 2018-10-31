@@ -3,6 +3,9 @@ A simple iOS checklist application
 
 Simple iOS application used to reinforce iOS development concepts:
 - UITableView
-- Data Source and Delegation design patterns
+- UITableViewCell
 - Protocols
 
+Design Patterns:
+- MVC
+- Data Source and Delegation
